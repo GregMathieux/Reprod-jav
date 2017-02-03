@@ -311,6 +311,7 @@ footer{
   position: relative;
   margin-left: 5%;
   margin-top: 15%;
+  border: 5px solid #fff;
 }
 .Usertitle{
   font-size: 22px;
@@ -323,12 +324,127 @@ footer{
   color:#a4a4a4;
 }
 #navigation{
-  text-align: center;
+  position: relative;
+  bottom: 140px;
+  margin-left: 20%;
 }
 #nav{
   display: table-cell;
   display: inline-block;
+  margin-left: 3%;
+  font-size: small;
+  color: #8c8c8c;
+}
+#nav:hover{
+  border-bottom:5px solid blue;
+  font-weight: bold;
+  color:blue;
+}
+#maxwell{
+  right: 0;
+  margin-right: 5%;
+  position: absolute;
+  bottom: 13px;
+  color: #a3a3a3;
+}
+#maxwell:hover{
+  color: #000;
+}
+#user11{
+  margin-top: 5%;
   position: relative;
-  margin-left: 5%;
+  bottom: 200px;
+}
 
+#imguser11{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#fristpubli1{
+  margin-top: 4%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+/*2eme publication*/
+#user22{
+  margin-top: 5%;
+  position: relative;
+  bottom: 200px;
+}
+#imguser22{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#sndpubli2{
+  margin-top: 4%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+/*3eme publication */
+#user33{
+  margin-top: 5%;
+  position: relative;
+  bottom: 200px;
+}
+#imguser33{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#Tndpubli3{
+  margin-top: 4%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+/*4eme publication*/
+#user44{
+  margin-top: 5%;
+  position: relative;
+  bottom: 200px;
+}
+#imguser44{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#Qndpubli4{
+  margin-top: 4%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+/*5eme publication*/
+#user55{
+  margin-top: 5%;
+  position: relative;
+  bottom: 200px;
+}
+#imguser55{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#Ondpubli5{
+  margin-top: 5%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+.menu1{
+  margin-left: 5%;
 }
