@@ -1,0 +1,334 @@
+/*CSS de la partie de google;) */
+
+body{
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+#navbar{
+  color: #000;
+  position: fixed top;
+  display: flex;
+  margin-left: 70%;
+}
+#navbar a{
+  text-decoration: none;
+  color: #000;
+  font-family: arial;
+}
+#navbar a:hover{
+  text-decoration: underline;
+}
+
+#navbar ul{
+    display: table;
+}
+#navbar li {
+ display: table-cell;
+ padding-right: 25px;
+ display: inline-block;
+
+}
+#icon{
+  height: 30px;
+  width: 30px;
+}
+#cnx{
+  background-color: rgb(10, 141, 215);
+  color:#fff;
+  padding: 5%;
+  border: none;
+  font-weight: bold;
+}
+#google{
+  height: 175px;
+  background-image: url(../img/momofuku-google.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: 10%;
+}
+#recherche{
+  margin-left: 33%;
+  width: 35%;
+}
+#cherche{
+  margin-top: 10px;
+  margin-left: 33%;
+  width: 18%;
+}
+#chance{
+    width: 18%;
+}
+footer{
+  width:100%;
+  position:absolute;
+  bottom:0;
+  background-color: rgb(223, 222, 222);
+
+}
+#PSG{
+  float: left;
+  margin: auto;
+  padding: 1%;
+  font-size: small;
+  font-family: arial;
+}
+#OM{
+  float: right;
+  margin: auto;
+  padding: 1%;
+  font-size: small;
+  font-family: arial;
+}
+#PSG a , #OM a {
+  text-decoration: none;
+  color: #000;
+}
+#PSG a:hover, #OM a:hover{
+  text-decoration: underline;
+}
+/*Fin de la partie css de google ;) */
+
+
+/*Début du css facebook;)*/
+#FB{
+  margin: 0;
+  padding: 0;
+}
+#facebook{
+  width: 100%;
+  top: 0;
+  background-color: #3B5998;
+  color: #000;
+  position:fixed;
+}
+
+#facebook li {
+ display: table-cell;
+ display: inline-block;
+}
+#ChercheAmis{
+  width: 500px;
+}
+
+#loupe{
+  margin-right: 150px;
+  color: #fff;
+}
+.MOI{
+  margin-right: 8px;
+  padding: 1%;
+  color: #fff;
+  font-weight: bold;
+}
+#facebook a{
+  text-decoration: none;
+  color: #fff;
+  font-family: arial;
+}
+#facedebouc{
+  margin-left: 15px;
+  color: #fff;
+}
+
+
+#Outils{
+  height: 100%;
+  position: fixed;
+  float: left;
+  padding: 2%;
+  list-style-type: none;
+  background-color: rgb(177, 181, 179);
+}
+/*1ere publication*/
+#user1{
+  margin-top: 5%;
+}
+#imguser1{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#fristpubli{
+  margin-top: 4%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+/*2eme publication*/
+#user2{
+  margin-top: 5%;
+}
+#imguser2{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#sndpubli{
+  margin-top: 4%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+/*3eme publication */
+#user3{
+  margin-top: 5%;
+}
+#imguser3{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#Tndpubli{
+  margin-top: 4%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+/*4eme publication*/
+#user4{
+  margin-top: 5%;
+}
+#imguser4{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#Qndpubli{
+  margin-top: 4%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+/*5eme publication*/
+#user5{
+  margin-top: 5%;
+}
+#imguser5{
+  height: 50px;
+  width: 50px;
+  float: left;
+  margin-left: 35%;
+}
+#Ondpubli{
+  margin-top: 5%;
+  height: 180px;
+  width: 450px;
+  margin-left: 35%;
+  border: 1px solid black;
+}
+
+/*pub*/
+#pub1{
+  top:0;
+  margin-top: 6%;
+  margin-left: 37%;
+  position: fixed;
+  height: 200px;
+  width: 300px;
+  float: right;
+}
+#pub2{
+  top:0;
+  margin-top: 30%;
+  margin-left: 37%;
+  position: fixed;
+  height: 200px;
+  width: 300px;
+  float: right;
+}
+#globale{
+  background-color: rgb(177, 181, 179);
+}
+/*Début du css twitter*/
+#twitter{
+  width: 100%;
+  top: 0;
+  background-color: #e9e9e9;
+  color: #000;
+  padding: 1%;
+  position: fixed;
+  /*position: relative;*/
+  z-index: 100;
+}
+
+#twitter li {
+ display: table-cell;
+ display: inline-block;
+}
+#twitter li:hover{
+  border-bottom: 5px solid blue;
+  color: blue;
+}
+.menu{
+  margin-right: 5%;
+}
+#menu2{
+  margin-right: 15%;
+}
+#bird{
+  color: blue;
+  margin-right: 15%;
+
+}
+#pichu{
+  width: 40px;
+  height: 40px;
+  border-radius: 20%;
+  position: absolute;
+}
+#btntw{
+  background-color: blue;
+  color: white;
+  border: none;
+  font-weight: bold;
+  padding: 5px;
+  margin-left: 5%;
+  border-radius: 5px;;
+}
+#btntw:hover{
+  background-color: #00346e;
+}
+#bann{
+  width: 100%;
+  height: 300px;
+  background-image: url(../img/orage.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  position: absolute;
+}
+#pich{
+  width: 15%;
+  border-radius: 5%;
+  position: relative;
+  margin-left: 5%;
+  margin-top: 15%;
+}
+.Usertitle{
+  font-size: 22px;
+    margin-left: 5%;
+    position: absolute;
+}
+.Usertitle2{
+  margin-left: 5%;
+  margin-top: 3%;
+  color:#a4a4a4;
+}
+#navigation{
+  text-align: center;
+}
+#nav{
+  display: table-cell;
+  display: inline-block;
+  position: relative;
+  margin-left: 5%;
+
+}
